@@ -1,0 +1,58 @@
+patch-package
+--- a/node_modules/pokemongo-json-pokedex/output/pokemon.json
++++ b/node_modules/pokemongo-json-pokedex/output/pokemon.json
+@@ -257,6 +257,10 @@
+             {
+                 "name": "Solar Beam",
+                 "id": "SOLAR_BEAM"
++            },
++            {
++                "name": "Frenzy Plant",
++                "id": "FRENZY_PLANT"
+             }
+         ],
+         "quickMoves": [
+@@ -577,6 +581,10 @@
+             {
+                 "name": "Overheat",
+                 "id": "OVERHEAT"
++            },
++            {
++                "name": "Flamethrower",
++                "id": "FLAMETHROWER"
+             }
+         ],
+         "quickMoves": [
+@@ -587,6 +595,10 @@
+             {
+                 "name": "Air Slash Fast",
+                 "id": "AIR_SLASH_FAST"
++            },
++            {
++                "name": "Ember Fast",
++                "id": "EMBER_FAST"
+             }
+         ],
+         "family": {
+@@ -11554,6 +11566,10 @@
+             {
+                 "name": "Stone Edge",
+                 "id": "STONE_EDGE"
++            },
++            {
++                "name": "Megahorn",
++                "id": "MEGAHORN"
+             }
+         ],
+         "quickMoves": [
+@@ -13330,6 +13346,10 @@
+             {
+                 "name": "Waterfall Fast",
+                 "id": "WATERFALL_FAST"
++            },
++            {
++                "name": "Dragon Tail Fast",
++                "id": "DRAGON_TAIL_FAST"
+             }
+         ],
+         "family": {
