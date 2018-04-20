@@ -4,26 +4,45 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "patch-package",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc ./public/js/index2.ts",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js --mode=development",
+    "build.server": "webpack --config webpack.server.config.js --mode=development",
+    "watch.server": "webpack --config webpack.server.config.js --mode=development -w",
+    "watch": "webpack --config webpack.config.js --mode=development -w",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^9.6.6",
+    "array.prototype.find": "^2.0.4",
     "awesome-typescript-loader": "^5.0.0",
+    "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "body-parser": "^1.18.2",
     "bootstrap-vue": "^2.0.0-rc.6",
+    "css-loader": "^0.28.11",
+    "es6-set": "^0.1.5",
+    "es6-symbol": "^3.1.1",
     "express": "^4.16.3",
+    "json-d-ts": "^1.0.1",
+    "nodemon-webpack-plugin": "^4.0.3",
     "patch-package": "^5.1.1",
     "pokemongo-json-pokedex": "^3.0.1",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.2.0",
     "typescript": "^2.8.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
     "vue-resource": "^1.5.0",
     "vuex": "^3.0.1",
     "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
-  }
+    "webpack-cli": "^2.0.14",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {}
 }

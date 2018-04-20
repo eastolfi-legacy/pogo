@@ -1,4 +1,4 @@
-[
+export const Mine = [
 	{ "name": "Tyranitar", "pc": 3296, "iv": 98, "attackFast": "Bite Fast", "attackCharged": "Stone Edge", "stats": { "attack": 10, "defense": 10, "stamina": 10 } },
 	{ "name": "Groudon", "pc": 3013, "iv": 80, "attackFast": "Bite Fast", "attackCharged": "Stone Edge", "stats": { "attack": 10, "defense": 10, "stamina": 10 } },
 	{ "name": "Snorlax", "pc": 2986, "iv": 93, "attackFast": "Lick Fast", "attackCharged": "Heavy Slam", "stats": { "attack": 10, "defense": 10, "stamina": 10 } },
@@ -36,4 +36,4 @@
 	{ "name": "Kabutops", "pc": 2019, "iv": 82, "attackFast": "Mud Shot Fast", "attackCharged": "Stone Edge", "stats": { "attack": 10, "defense": 10, "stamina": 10 } },
 	{ "name": "Exploud", "pc": 2018, "iv": 73, "attackFast": "Bite Fast", "attackCharged": "Disarming Voice", "stats": { "attack": 10, "defense": 10, "stamina": 10 } },
 	{ "name": "Exeggutor", "pc": 2011, "iv": 76, "attackFast": "Extrasensory Fast", "attackCharged": "Seed Bomb", "stats": { "attack": 10, "defense": 10, "stamina": 10 } }
-]
+];
